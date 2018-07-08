@@ -109,12 +109,12 @@ body {
 }
 
 .inputs {
-    height: 40vh;
+    height: 50vh;
 }
 
 .results {
     display: flex;
-    height: 60vh;
+    height: 50vh;
 
 }
 
@@ -135,48 +135,6 @@ body {
     text-align: center;
 }
 
-.data-container {
-    width: 35%;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    position: relative;
-    top: 75px;
-}
-
-.inputs-val {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.inputs-val input {
-    height: 20px;
-}
-
-.inputs-name {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.inputs-name p {
-    margin: 0;
-    font-size: 20px;
-}
-
-.unit {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.unit p {
-    margin: 5px;
-    line-height: 20px;
-    font-size: 20px;
-}
-
 .bmr h2 {
     text-align: center;
 }
@@ -192,34 +150,70 @@ body {
     padding-top: 75px;
 }
 
-.sex-data {
-    width: 35%;
-    display: flex;
-    justify-content: space-between;
+.data-container {
+    width: 60%;
+    height: 70%;
     margin: auto;
     position: relative;
-    top: 75px;
+    top:75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-col {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-col-2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.input-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-name p {
+    margin: 0;
     font-size: 20px;
     line-height: 20px;
 }
 
-.sex-input {
+.input-val {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
-.sex-input {
+.input-val input {
     height: 20px;
-    font-size: 15px;
+    padding: 0;
 }
 
-.sex-input p {
+.input-unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-unit p {
     margin: 0;
+    font-size: 20px;
+    line-height: 20px;
 }
-
-.submit {
-    position: relative;
-    top: 75px;
-    margin: 0 auto;
-    text-align: center;
+.sex-input {
+    width: 40%;
+    font-size: 20px;
+}
+.button {
+    width: 30%;
+    height: 20px;
 }

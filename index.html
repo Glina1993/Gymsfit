@@ -50,43 +50,45 @@
 <div class="calc-container">
     <div class="inputs">
         <h2 class="calc-title"> Fill in this fields and check your BMR and BF</h2>
-        <div class="data-container">
-            <div class="inputs-name">
-                <p>Sex: </p>
-                <p>Weight: </p>
-                <p>Height: </p>
-                <p>Age: </p>
-                <p>Waist: </p>
-            </div>
-            <div class="inputs-val">
-                <div class="sex-input">
-                    <p>Male</p>
-                    <input type="checkbox" value="male">
-                    <p>Female</p>
-                    <input type="checkbox" value="female">
+        <form class=data-container action="#">
+            <div class="input-col">
+
+                <div class="input-name">
+                    <p>Weight: </p>
+                    <p>Height: </p>
+                    <p>Age: </p>
+                    <p>Waist: </p>
                 </div>
-                <input id="weight" type="number" placeholder="your weight" required>
-                <input id="height" type="number" placeholder="your height" required>
-                <input id="age" type="number" placeholder="your age" required>
-                <input id="waist" type="number" placeholder="your waist" required>
+
+                <div class="input-val">
+                    <input id="weight" type="number">
+                    <input id="height" type="number">
+                    <input id="age" type="number">
+                    <input id="waist" type="number">
+                </div>
+
+                <div class="input-unit">
+                    <p>kg</p>
+                    <p>cm</p>
+                    <p>years</p>
+                    <p>cm</p>
+                </div>
+
+
+
             </div>
-            <div class="unit">
-                <p>-</p>
-                <p>kg</p>
-                <p>cm</p>
-                <p>years</p>
-                <p>cm</p>
+            <div class="input-col-2">
+                <div class="sex-input"><input class="gender" type="radio" name="gender" value=true>Male </div>
+                <div class="sex-input"><input class="gender" type="radio" name="gender" value=false>Female </div>
+                <button class="button" type="button" onclick="set()">Calc</button>
             </div>
-        </div>
-        <div  class="submit">
-            <input type="submit">
-        </div>
+        </form>
     </div>
     <div class="results">
         <div class="bmr">
             <h2>Your BMR</h2>
             <p>
-                <span id="bmrResult">X</span> %
+                <span id="bmrResult">X</span> kcal
             </p>
         </div>
 
@@ -98,5 +100,7 @@
         </div>
     </div>
 </div>
+
+<script src="js/app.js"></script>
 </body>
 </html>
