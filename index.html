@@ -20,15 +20,12 @@
         <a class="nav-but" href="#">Calculator</a>
     </div>
 </div>
-
 <div class="home-container">
     <div class="intro">
         <h2>Looking for the best Gym calculator?</h2>
         <p>Here you are!</p>
     </div>
 </div>
-
-
 <div class="blog-container">
     <div class="blog-title">
     <h2>
@@ -36,7 +33,6 @@
     </h2>
     <a href="#">See more</a>
     </div>
-
     <div class="blog-grid">
         <div class="blog-row">
             <div class="blog-item"></div>
@@ -51,32 +47,39 @@
         </div>
     </div>
 </div>
-
 <div class="calc-container">
     <div class="inputs">
         <h2 class="calc-title"> Fill in this fields and check your BMR and BF</h2>
-
         <div class="data-container">
             <div class="inputs-name">
+                <p>Sex: </p>
                 <p>Weight: </p>
                 <p>Height: </p>
                 <p>Age: </p>
                 <p>Waist: </p>
             </div>
-
             <div class="inputs-val">
-                <input type="number" placeholder="your weight">
-                <input type="number" placeholder="your height">
-                <input type="number" placeholder="your age">
-                <input type="number" placeholder="your waist">
+                <div class="sex-input">
+                    <p>Male</p>
+                    <input type="checkbox" value="male">
+                    <p>Female</p>
+                    <input type="checkbox" value="female">
+                </div>
+                <input id="weight" type="number" placeholder="your weight" required>
+                <input id="height" type="number" placeholder="your height" required>
+                <input id="age" type="number" placeholder="your age" required>
+                <input id="waist" type="number" placeholder="your waist" required>
             </div>
-
             <div class="unit">
+                <p>-</p>
                 <p>kg</p>
                 <p>cm</p>
                 <p>years</p>
                 <p>cm</p>
             </div>
+        </div>
+        <div  class="submit">
+            <input type="submit">
         </div>
     </div>
     <div class="results">
@@ -93,10 +96,7 @@
                 <span id="bfResult">X</span> %
             </p>
         </div>
-
     </div>
-
-
 </div>
 </body>
 </html>

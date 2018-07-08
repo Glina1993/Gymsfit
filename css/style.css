@@ -191,3 +191,35 @@ body {
     font-size: 60px;
     padding-top: 75px;
 }
+
+.sex-data {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    top: 75px;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.sex-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sex-input {
+    height: 20px;
+    font-size: 15px;
+}
+
+.sex-input p {
+    margin: 0;
+}
+
+.submit {
+    position: relative;
+    top: 75px;
+    margin: 0 auto;
+    text-align: center;
+}
