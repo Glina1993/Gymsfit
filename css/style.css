@@ -68,10 +68,11 @@ body {
     border-radius: 50%;
 }
 
-.blog-title h1 {
+.blog-title h2 {
     margin: 0;
     line-height: 65px;
 }
+
 .blog-title a {
     margin: 0;
     text-decoration: none;
@@ -102,3 +103,76 @@ body {
     background: rgba(255, 255, 255, 0.2);
 }
 
+.calc-container {
+    height: 100vh;
+    background: #2e2e30;
+}
+
+.inputs {
+    height: 40vh;
+}
+
+.results {
+    display: flex;
+    height: 60vh;
+
+}
+
+.bmr {
+    height: 100%;
+    width: 50%;
+}
+
+.bf {
+    height: 100%;
+    width: 50%;
+}
+
+.calc-title {
+    margin: 0;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+.data-container {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    top: 75px;
+}
+
+.inputs-val {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.inputs-val input {
+    height: 20px;
+}
+
+.inputs-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.inputs-name p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.unit p {
+    margin: 5px;
+    line-height: 20px;
+    font-size: 20px;
+}
