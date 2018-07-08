@@ -176,3 +176,18 @@ body {
     line-height: 20px;
     font-size: 20px;
 }
+
+.bmr h2 {
+    text-align: center;
+}
+
+.bf h2 {
+    text-align: center;
+}
+
+.bf p,
+.bmr p {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 75px;
+}
